@@ -1,0 +1,115 @@
+<!DOCTYPE html>    
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Account</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    
+</head>
+    <body>
+    
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="welcomesign" href="index.html">
+                        Bet Crypto
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="activebets.html">Bets</a>
+                </li>
+                <li>
+                    <a href="accountinfo.html">Account</a>
+                </li>
+                <li>
+                    <a href="settings.html">Settings</a>
+                </li>
+            </ul>
+        </div>
+
+            <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="btn btn-dark" href="#menu-toggle" id="menu-toggle">
+                <h6>Menu </h6><span class="far fa-caret-square-right"></span>
+            </button>
+        </div>
+        
+        <div class="jumbotron">
+            
+            <h1 class="myaccount text-center">Account Info</h1>
+            <hr>
+            
+            <h2>Balances:</h2>
+                <h6>Coin1 369.33654273</h6>
+                <h6>Coin2 0.00000000</h6>
+                <h6>Coin3 0.00000000</h6>
+            
+            <h2>Withdraw:</h2>
+            <form>
+            <div class="form-group">
+            <label>Withdrawal Address</label>
+            <input>
+            </div> 
+            <div class="form-group">
+            <label>Select Coin to Withdraw:</label>
+            </div>
+            <button class="btn btn-primary" type="submit">
+            Withdraw Coin1
+            </button>
+            <button class="btn btn-primary" type="submit">
+            Withdraw Coin2 
+            </button>
+            <button class="btn btn-primary" type="submit">
+            Withdraw Coin3 
+            </button>
+            </form>
+            
+            <h2>Withdrawal History:</h2>
+                <h6>DATE AMOUNT COIN ADDRESS</h6>
+                <h6>DATE AMOUNT COIN ADDRESS</h6>
+        </div>
+        <hr>
+              
+                <div>
+                <button class="switchaccounts">Switch Accounts</button> 
+                </div>
+        
+    </div>
+        
+        
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+        
+    <!-- Temp Login JS -->
+    <script src="scripts/main.js"></script>
+        
+    </body>
+</html>

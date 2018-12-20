@@ -1,0 +1,41 @@
+.main-content{
+  height:100%;
+  width: inherit;
+
+}
+.page-header{
+  padding-bottom: 50px;
+}
+.bets {
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns:33.3% 33.3% 33.3%;
+  grid-template-rows:100px 100px 100px;
+}
+.submit-form{
+  padding-top: 50px;
+}
+.form-group li {
+    list-style-type: none;
+    display: inline;
+}
+.form-group ul {
+  padding-top: 15px;
+}
+.line{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 4px;
+
+}
+.submitBetHeader{
+  color: red;
+}
+.loginspace{
+  text-align: right;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
